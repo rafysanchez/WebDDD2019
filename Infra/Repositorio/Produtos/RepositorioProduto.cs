@@ -69,7 +69,7 @@ namespace Infra.Repositorio.Produtos
         {
             using (var banco = new Contexto(_OptionsBuilder.Options))
             {
-                return banco.Produto.FromSql("Select * from Produto").ToList();
+                return banco.Produto.FromSql("ListarTodos").ToList();
             }
         }
 

@@ -71,7 +71,7 @@ namespace WebDDD2019
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=ProdutoWeb}/{action=Index}/{id?}");
             });
         }
     }
